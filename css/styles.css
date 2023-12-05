@@ -1,0 +1,25 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  column-gap: 10px;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-item {
+  width: calc((90% - 20px) / 3);
+}
+
+.gallery-image {
+  width: 100%;
+}
+
+/* .gallery-image.open {
+  width: 600px;
+  height: 400px;
+} */
+
+.picture-title {
+  color: white;
+}
